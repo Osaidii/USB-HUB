@@ -1,9 +1,10 @@
 # USB-HUB
 Welccome to a guide to make your own USB 2.0 HUB for less price and get the experience of making and DIY project.   
+This product has a USB-A port to connect to the computer and 4 extra ports, 3 USB-A and one USB-C port.  
 This guide and the files are open source and completly free to distribute, use, or modify but you are not allowed to sell these files. 
 This USB HUB has a transfer rate of 480 Mbs (Megabits per second) or arround 60 MBs (MegaBytes per second).  
 This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.   
-This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters..
+This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.
   
   
 ## Overview
