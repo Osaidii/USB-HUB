@@ -5,6 +5,13 @@ This guide and the files are open source and completely free to distribute, use,
 This USB HUB has a transfer rate of 480 Mbs (Megabits per second) or around 60 MBs (MegaBytes per second).  
 This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.   
 This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.
+
+
+## Files
+1. PCB-PCBA.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.
+2. Enclosure.obj is a object file which is a 3D Model and it is going to be used to 3D Print the Enclosure.
+3. Source-Project.epro is the PCB source file for any further modifications that you would want to do.
+4. Model.blend is the Blender source file for any further modifications that you would want to do.
   
   
 ## Steps
@@ -30,5 +37,5 @@ This part of the guide will define an overview of the steps required to end up w
 20. asdasd
 21. assdasd
 
-## Modify
+## Modification
 
