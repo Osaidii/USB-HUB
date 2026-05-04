@@ -10,7 +10,7 @@ This is not meant for use with High-Speed Devices, or Devices that require a lot
 ## Steps
 This part of the guide will define an overview of the steps required to end up with a complete USB HUB.
 1. Start by downloading the [latest release](https://github.com/Osaidii/USB-HUB/releases) of the files in this repository.
-2. You will get the files Enclosure.obj, Project.epro, and Order.zip after you extract the files from the zip file.
+2. You will get the files Enclosure.obj, Project.epro, Order.zip, and Model.blend after you extract the files from the zip file.
 3. This is the point where if you want to modify the project for yourself, you can do so by skipping ahead to [Modify](https://github.com/Osaidii/USB-HUB#modify) and coming back later.
 5. Now we can start by placing our order of the PCB (Printed Circuit Board) and the 3D Printed Enclosure.
 6. First of all you need to head to [JLCPCB](https://jlcpcb.com/) (which i am using) and create an account. You can also use any other PCB manufacturing service you want to use.
