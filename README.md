@@ -5,6 +5,7 @@ This guide and the files are open source and completely free to distribute, use,
 This USB HUB has a transfer rate of 480 Mbs (Megabits per second) or around 60 MBs (MegaBytes per second).  
 This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.   
 This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.
+Please confirm that everything checks out and I am not liable for any problems with this project. I have made this to the best of my ability and there may be mistakes. Please make an issue in the tabs above for any problems you find.
 
 
 ## Files
