@@ -1,20 +1,20 @@
 # USB-HUB
 Welcome to a guide to make your own USB 2.0 HUB for less price and get the experience of making and DIY Hardware project.   
 This product has a USB-A port to connect to the computer and 4 extra ports, 3 USB-A and one USB-C port.  
-This guide and the files are open source and completely free to distribute, use, or modify but you are not allowed to sell these files. 
+This guide and the files are open source and completely free to distribute, use, or modify but you are not allowed to sell these files.  
 This USB HUB has a transfer rate of 480 Mbs (Megabits per second) or around 60 MBs (MegaBytes per second).  
-This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.   
-This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.
+This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.    
+This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.  
 Please confirm that everything checks out and I am not liable for any problems with this project. I have made this to the best of my ability and there may be mistakes. Please make an issue in the tabs above for any problems you find.
 
 
 ## Files
-1. PCB-PCBA.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.
-2. Enclosure.obj is a object file which is a 3D Model and it is going to be used to 3D Print the Enclosure.
-3. Source-Project.epro is the PCB source file for any further modifications that you would want to do.
-4. Model.blend is the Blender source file for any further modifications that you would want to do.
-  
-  
+1. PCB-PCBA.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.  
+2. Enclosure.obj is a object file which is a 3D Model and it is going to be used to 3D Print the Enclosure.  
+3. Source-Project.epro is the PCB source file for any further modifications that you would want to do.  
+4. Model.blend is the Blender source file for any further modifications that you would want to do.  
+    
+    
 ## Steps
 This part of the guide will define an overview of the steps required to end up with a complete USB HUB.
 1. Start by downloading the [latest release](https://github.com/Osaidii/USB-HUB/releases) of the files in this repository.
@@ -39,10 +39,16 @@ This part of the guide will define an overview of the steps required to end up w
 21. For the Quantity, The PCBs that we ordered are 5, which is the minimum option for buying from JLCPCB, You can go ahead and select as many Enclosures/Cases you want. I am selecting 2 for Money's Sake.
 22. Now you can click save to cart and also go ahead and buy both of the things.
 23. The only thing left is screws, we need 3 screws for each case, and we need 2mm x 15mm screws.
-24. I am going to buy these, but you might be able to find better prices in your region.
+24. I am going to buy some these, but you might be able to find better prices in your region.
 25. Once you recieve all your items, We can go ahead and complete the Whole Thing.
-26. Thanks for following this Guide and I hope you are satisfied with the USB HUB.
-
+26. First we can take out Side with walls and we can put our PCB upside down so that the Ports line up with the holes for them.
+27. Then we can position the PCB so that the PCB holes and the screw standoffs line up (The standoffs are a little smaller purposefully).
+28. Now you can place the lid on top of the the whole thing and put the screws inside the Holes.
+29. Now you can go ahead and screw the screws so that the whole thing locks.
+30. The screws might be a little hard to screws since they are self-tapping screws and they might stick out just a little bit.
+31. Congratulations, You just completed the USB Hub.
+32. Thanks for following this Guide and I hope you are satisfied with the final product.
+    
     
 ## Modification
 1. Uhhh i dunno yet.
