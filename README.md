@@ -71,7 +71,16 @@ First of all we are going to start with how you can modify the PCB.
 
 Now we are going to do the Enclosure
 1. Warning, I used Blender to design this enclsoure which is not the standard, it might not be even meant for this use.
-2. First you can go to Blender, press 
-3. sdf
-4. 
+2. First you can go to Blender, press
+3. If you have modified the size of the PCB, please continue reading, if not please skip to Step 9.
+4. Now, you will need to import the PCB into this blender project so that you can fix the size according to the PCB.
+5. For this, in EasyEda pro, you can go ahead and press File -> Export -> 3D File.
+6. Now you can press OBJ and then export.
+7. The back in blender, you can press File -> Import -> Wavefront(.obj) and select this file.
+8. Now you have the PCB inside blender so you can make the measurments.
+9. After you are done modifiying the Enclosure, you can position both Base, Lid and any other parts that you have, Flat side down at the same hieght.
+10. Please just check that these things are alright (Manifolds, Geometry, Normals, and Scale).
+11. ##############
+12. Then you can delete any things that you do not need, and then press File -> Export -> Wavefront(.obj) and save the file
+13. Now this file is basically Eclosure.obj but with your modifications, you can use this instead of Enclosure.obj.
 
