@@ -80,7 +80,20 @@ Now we are going to do the Enclosure
 8. Now you have the PCB inside blender so you can make the measurments.
 9. After you are done modifiying the Enclosure, you can position both Base, Lid and any other parts that you have, Flat side down at the same hieght.
 10. Please just check that these things are alright (Manifolds, Geometry, Normals, and Scale).
-11. ##############
-12. Then you can delete any things that you do not need, and then press File -> Export -> Wavefront(.obj) and save the file
-13. Now this file is basically Eclosure.obj but with your modifications, you can use this instead of Enclosure.obj.
+11. To check if everything is Manifold / Watertight, select all the Enclosure Meshes (not the PCB) and go to edit mode.
+12. Once There, Go to Select underneath the Ribbon with File and Edit, then press Select All by Trait, and then Non-Manifold.
+13. 13. If Anything is highlighted, please fix it here.
+14. To check that there is no loose geometry, select all the Enclosure Meshes (not the PCB) again and go to edit mode.
+12. Once There, Go to Select underneath the Ribbon with File and Edit, then press Select All by Trait, and then Loose Geometry.
+13. If Anything is highlighted, please fix it here.
+14. To check for Internal Faces, Press Z and Wireframe in Object mode.
+15. Check if there are any faces inside the Meshes.
+16. Then Press A -> M -> By Distance.
+17. Now, In Object mode, do you see the Circles at the top right of the viewport, There are two overlapping circles near it, press the circles and then enable Face Orientation.
+18. Everythings should be Blue, if anything is red, You need to flip it, ###############
+19. If you have used any Booleans, Mirrors, or even Unions, Apply the Booleans, and try to fix the self-intersections, if not possible, rebuild the area or search for different ways to make that part.
+20. Finally, just make sure your Project is set to milimeters in Inspector -> Scene -> Units -> Length -> Milimeters.
+21. Now you are done checking your model for problems.
+22. Then you can delete any things that you do not need, and then press File -> Export -> Wavefront(.obj) and save the file
+23. Now this file is basically Eclosure.obj but with your modifications, you can use this instead of Enclosure.obj.
 
