@@ -1,21 +1,23 @@
 # USB-HUB
-Welcome to a guide to make your own USB 2.0 HUB for less price and get the experience of making a DIY Hardware project.   
+Welcome to a guide to make your own USB 2.0 HUB for less price and get the experience of making a DIY Hardware project.  
 This product has a USB-A port to connect to the computer and 4 extra ports, 3 USB-A and 1 USB-C port.  
 This guide and the files are open source and completely free to distribute, use, or modify but you are not allowed to sell these files.  
 This USB HUB has a transfer rate of 480 Mbs (Megabits per second) or around 60 MBs (MegaBytes per second).  
-This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.    
+This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.  
 This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.  
-Please confirm that everything checks out and I am not liable for any problems with this project. I have made this to the best of my ability and there may be mistakes. Please make an issue in the tabs above for any problems you find.
-This guide will only show you how to order online and not solder or print yourself since even I do not know how to do these.
-
-
+Please confirm that everything checks out and I am not liable for any problems with this project.  
+I have made this to the best of my ability and there may be mistakes.  
+Please make an issue in the tabs above for any problems you find.  
+This guide will only show you how to order online and not solder or print yourself since even I do not know how to do these.  
+  
+  
 ## Files
-1. PCB-PCBA.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.  
-2. Enclosure.obj is an object file which is a 3D Model and it is going to be used to 3D Print the Enclosure.  
-3. Source-Project.epro is the PCB source file for any further modifications that you would want to do.  
-4. Model.blend is the Blender source file for any further modifications that you would want to do.  
-    
-    
+1. PCB-PCBA.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.
+2. Enclosure.obj is an object file which is a 3D Model and it is going to be used to 3D Print the Enclosure.
+3. Source-Project.epro is the PCB source file for any further modifications that you would want to do.
+4. Model.blend is the Blender source file for any further modifications that you would want to do.
+  
+  
 ## Steps
 This part of the guide will define an overview of the steps required to end up with a complete USB HUB.
 1. Start by downloading the [latest release](https://github.com/Osaidii/USB-HUB/releases) of the files in this repository.
@@ -29,7 +31,7 @@ This part of the guide will define an overview of the steps required to end up w
 10. PCB Color is the color of the chip, in my opinion Green, Black, and Blue look good but you can choose whichever color you want (this only makes a visual difference).
 11. For this PCB, you just need to confirm that the settings are set to 2 Layers and 1.6 mm PCB Thickness if not already selected.
 12. For Surface Finish, you can select HASL with lead or Lead Free HASL (which I am going to be choosing since it is a little safer).
-13. Then you need to scroll all the way down and turn on PCB Assembly and select 5 as PCB Assembly Quantity, now you can also select any coupons from the bottom as there are many coupons that give discounts (you can only select one coupon for one transaction). 
+13. Then you need to scroll all the way down and turn on PCB Assembly and select 5 as PCB Assembly Quantity, now you can also select any coupons from the bottom as there are many coupons that give discounts (you can only select one coupon for one transaction).
 14. Now you would be able to see a table of items in front of you with weird names, you just need to make sure that all of the items are ticked on and turn them on if they are not.
 15. Then you can go ahead and keep pressing next and finally press save to cart but do not order now.
 16. Now we can go ahead and add our 3D Printed Enclosure in the same order since shipping is quite a lot on JLCPCB.
@@ -49,12 +51,12 @@ This part of the guide will define an overview of the steps required to end up w
 30. The screws might be a little hard to screw since they are self-tapping screws and they might stick out just a little bit.
 31. Congratulations, You just completed the USB Hub.
 32. Thanks for following this Guide and I hope you are satisfied with the final product.
-    
-    
+  
+  
 ## Modification
 This part of the guide is going to be divided into two parts.  
-1. The PCB  
-2. The Enclosure  
+1. The PCB
+2. The Enclosure
   
 First of all we are going to start with how you can modify the PCB.  
 1. First of all, these PCB files are meant for EasyEdaPro and if you are using other software, please check if these files work with your software.
@@ -68,7 +70,7 @@ First of all we are going to start with how you can modify the PCB.
 9. Now we need to export the files in Gerber Format so that we can order the PCB.
 10. For exporting, press File -> Export -> PCB Fabrication File (Gerber) -> Export Gerber -> No, continue exporting.
 11. Now you have your Gerber files which are the same as PCB-PCBA.zip but include your changes (you can use these files instead of PCB-PCBA.zip, i mean).
-
+  
 Now we are going to do the Enclosure
 1. Warning, I used Blender to design this enclosure which is not the standard, it might not be even meant for this use.
 2. First you can go to Blender, press
