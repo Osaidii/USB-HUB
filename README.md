@@ -6,6 +6,7 @@ This USB HUB has a transfer rate of 480 Mbs (Megabits per second) or around 60 M
 This is alright for Keyboard, Mouse, Printer, USB Drives, Game Controllers, etc.    
 This is not meant for use with High-Speed Devices, or Devices that require a lot of power like RGB-Heavy Devices or High-Power WIFI Adapters.  
 Please confirm that everything checks out and I am not liable for any problems with this project. I have made this to the best of my ability and there may be mistakes. Please make an issue in the tabs above for any problems you find.
+This guide will only show you how to order online and not solder or print yourself since even I do not know how to do these.
 
 
 ## Files
@@ -51,5 +52,26 @@ This part of the guide will define an overview of the steps required to end up w
     
     
 ## Modification
-1. Uhhh i dunno yet.
+This part of the guide is going to be divided intp two parts.  
+1. The PCB  
+2. The Enclosure  
+  
+First of all we are going to start with how you can modify the PCB.  
+1. First of all, These PCB files are meant for EasyEdaPro and if you are using other software, please check these files work with your software.
+2. Now, you can head to [EasyEdaPro](https://easyeda.com/) and make an account or login.
+3. Then you can click Design Online and then Pro edition since it is a lot easier.
+4. Now you can click File -> Import -> EasyEDA(Standard).
+5. Now you can select Source-Project.epro which will give you the option to modify and change the Schematics and the PCB.
+6. Some things you can add are lights for when a usb is plugged in, Add more Ports, or upgrade the ports from USB 2.0 to 3.0.
+7. After you are done modifiying, You can press Check DRC in the bottom tab.
+8. If there are any thigns that pop up in the DRC zone, that means there is an error. You can search online, use Ai to fix these, or use your Brain to fix these.
+9. Now we need to export the files in Gerber Format so that we can order the PCB.
+10. For exporting, press File -> Export -> PCB Fabrication File (Gerber) -> Export Gerber -> No, continue exporting.
+11. Now you have your Gerber files which are the same as PCB-PCBA.zip but include your changes (you can use these files instead of PCB-PCBA.zip, i mean).
+
+Now we are going to do the Enclosure
+1. Warning, I used Blender to design this enclsoure which is not the standard, it might not be even meant for this use.
+2. First you can go to Blender, press 
+3. sdf
+4. 
 
