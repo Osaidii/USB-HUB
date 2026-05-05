@@ -12,16 +12,16 @@ This guide will only show you how to order online and not solder or print yourse
   
   
 ## Files
-1. PCB-PCBA.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.
+1. PCB.zip is a gerber file which is going to be used to tell the Manufacturing service how the PCB should be made.
 2. Enclosure.obj is an object file which is a 3D Model and it is going to be used to 3D Print the Enclosure.
-3. Source-Project.epro is the PCB source file for any further modifications that you would want to do.
+3. Source.epro is the PCB source file for any further modifications that you would want to do.
 4. Model.blend is the Blender source file for any further modifications that you would want to do.
   
   
 ## Steps
 This part of the guide will define an overview of the steps required to end up with a complete USB HUB.
 1. Start by downloading the [latest release](https://github.com/Osaidii/USB-HUB/releases) of the files in this repository.
-2. You will get the files Enclosure.obj, PCB-PCBA.zip, Source-files.epro, and Model.blend after you extract the files from the zip file. The only ones you need if you are not doing any modifications are the first two.
+2. You will get the files Enclosure.obj, PCB.zip, Source.epro, and Model.blend after you extract the files from the zip file. The only ones you need if you are not doing any modifications are the first two.
 3. This is the point where if you want to modify the project for yourself, you can do so by skipping ahead to [Modify](https://github.com/Osaidii/USB-HUB#modify) and coming back later and continuing here.
 5. Now we can start by placing our order of the PCB (Printed Circuit Board) and the 3D Printed Enclosure.
 6. First of all you need to head to [JLCPCB](https://jlcpcb.com/) (which i am using) and create an account. You can also use any other PCB manufacturing service you want to use.
@@ -69,7 +69,7 @@ First of all we are going to start with how you can modify the PCB.
 8. If there are any things that pop up in the DRC zone, that means there is an error. You can search online, use AI to fix these, or use your brain to fix these.
 9. Now we need to export the files in Gerber Format so that we can order the PCB.
 10. For exporting, press File -> Export -> PCB Fabrication File (Gerber) -> Export Gerber -> No, continue exporting.
-11. Now you have your Gerber files which are the same as PCB-PCBA.zip but include your changes (you can use these files instead of PCB-PCBA.zip, i mean).
+11. Now you have your Gerber files which are the same as PCB.zip but include your changes (you can use these files instead of PCB.zip, i mean).
   
 Now we are going to do the Enclosure
 1. Warning, I used Blender to design this enclosure which is not the standard, it might not be even meant for this use.
